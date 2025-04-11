@@ -1,11 +1,14 @@
 import { Button } from "../Button";
 
-type Props = {
+type IntroductionProps = {
   text: string;
   name: string;
 };
 
-export const About = ({ name = "nameless", text = ":)" }: Props) => {
+export const Introduction = ({
+  name = "nameless",
+  text = ":)",
+}: IntroductionProps) => {
   return (
     <section className="flex justify-center items-center flex-col pt-50 gap-10 ">
       <h1 className="text-6xl uppercase font-extrabold ">
