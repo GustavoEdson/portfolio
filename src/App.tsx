@@ -1,6 +1,6 @@
 import "./App.css";
-import { Nav } from "./components/nav";
-import { Introduction } from "./components/Home";
+import { Nav } from "./components/Nav";
+import { Home } from "./components/Home";
 import { Skills } from "./components/Skills";
 import { About } from "./components/About";
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Nav logo="gustavo edson" />
-      <Introduction
+      <Home
         name="gustavo edson"
         text="A skilled web developer,
               crafting and managing websites 
