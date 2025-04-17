@@ -1,4 +1,3 @@
-import { link } from "motion/react-client";
 import { Button } from "../Button";
 
 type PropsCard = {

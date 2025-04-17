@@ -6,7 +6,6 @@ import { Project } from "./components/Project";
 function App() {
   return (
     <>
-      <Nav logo="gustavo edson" />
       <Home
         name="gustavo edson"
         text="A skilled web developer,
