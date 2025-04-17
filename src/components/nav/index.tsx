@@ -1,3 +1,5 @@
+import { Button } from "../Button";
+
 type Props = {
   logo?: string;
 };
@@ -20,6 +22,7 @@ export const Nav = ({ logo }: Props) => {
           <li className="">
             <a href="#king">contact</a>
           </li>
+          <Button />
         </ul>
       </nav>
     </header>

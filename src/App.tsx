@@ -1,8 +1,7 @@
-import "./App.css";
 import { Nav } from "./components/Nav";
 import { Home } from "./components/Home";
-import { Skills } from "./components/Skills";
 import { About } from "./components/About";
+import { Project } from "./components/Project";
 
 function App() {
   return (
@@ -16,6 +15,7 @@ function App() {
               the success of the entire product with finesse."
       />
       <About />
+      <Project />
     </>
   );
 }
