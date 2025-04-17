@@ -34,7 +34,6 @@ export const About = () => {
         </div>
         <div className="w-[40%]">
           <h2 className="text-3xl font-extrabold">My Skills</h2>
-
           <Skills
             skills={[
               "JavaScript",
