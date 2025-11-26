@@ -9,6 +9,7 @@ function App() {
     <>
       <Nav logo="gustavo edson" />
       <motion.div
+        className="#name"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}

@@ -47,6 +47,7 @@ export const About = () => {
               "CSS",
               "MongoDB",
               "Styled-Components",
+              "Express",
             ]}
           />
         </div>

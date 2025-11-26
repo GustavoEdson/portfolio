@@ -15,7 +15,7 @@ export const Nav = ({ logo }: Props) => {
             <a href="">about</a>
           </li>
           <li className="">
-            <a href="">projects</a>
+            <a href="about">projects</a>
           </li>
           <li className="">
             <a href="#king">contact</a>

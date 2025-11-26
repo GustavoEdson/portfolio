@@ -2,7 +2,7 @@ import { Card } from "../Card";
 
 export const Project = () => {
   return (
-    <section className="">
+    <section className="flex justify-center flex-col gap-5 flex-wrap about">
       <h2 className="text-center text-3xl uppercase underline p-4 lin text-red-600 font-extrabold">
         projects
       </h2>
@@ -10,7 +10,7 @@ export const Project = () => {
         Discover a range of projects I've crafted, including personal and client
         work, with each project featuring its own compelling case study.
       </p>
-      <div className="flex flex-col m-[50px] gap-4 ">
+      <div className="flex flex-col m-[50px] gap-4 flex-wrap">
         <Card
           img="https://i.ibb.co/Z6Cmfc5S/organo-app.png"
           title="API"

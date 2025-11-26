@@ -9,7 +9,7 @@ type PropsCard = {
 
 export const Card = ({ img, title, description, link }: PropsCard) => {
   return (
-    <div className="bg-amber-950 h-[100%] w-[100%] flex p-5 items-center justify-items-center gap-3 rounded-2xl">
+    <div className="h-[100%] w-[100%] flex p-5 justify-around gap-3 rounded-2xl">
       <div>
         <img src={img} alt={img} className="w-2xl" />
       </div>
